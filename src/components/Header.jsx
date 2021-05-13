@@ -1,8 +1,7 @@
 import React, { Component } from "react";
 import "../scss/header.scss";
-
+import { FaBars } from "react-icons/fa";
 export default class Header extends Component {
-
   myFunction() {
     var x = document.getElementById("myTopnav");
     if (x.className === "topnav") {
@@ -19,12 +18,11 @@ export default class Header extends Component {
           <a href="#home" className="active">
             Home
           </a>
-          <a href="#news">Bookings</a>
+          <a href="#events">Events</a>
           <a href="#contact">Contact</a>
           <a href="#about">About</a>
-          <a href="#" className="icon" onClick={()=>this.myFunction()}>
-            {/* <i className="fa fa-bars"></i> */}
-            M
+          <a href="#" className="icon" onClick={() => this.myFunction()}>
+            <FaBars />
           </a>
         </div>
       </div>

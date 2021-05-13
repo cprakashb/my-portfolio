@@ -1,10 +1,22 @@
-#contact{
-    
-    width: 500px;
-    margin: auto;
-    padding: 50px;
-text-align: center;
-font-family: "Gill Sans", sans-serif;
-
+#contact {
+  margin: auto;
+  margin-top: 50px;
+  text-align: center;
+  font-family: "Gill Sans", sans-serif;
+  
+  @media (min-width:768px){
+    margin-right: 25%;
+    margin-left: 25%;
+  }
 }
-
+.insta-icon ,.mobile-icon{
+  color: #b746a3;
+  font-size: 25px;
+}
+.insta-id,.mobile-no {
+  text-decoration: none;
+  color: #b746a3;
+}
+.mobile{
+    padding-top:10px ;
+}

@@ -6,5 +6,5 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: [`gatsby-plugin-sass`,`gatsby-plugin-fontawesome-css`,`gatsby-plugin-image`],
+  plugins: [`gatsby-plugin-sass`,`gatsby-plugin-fontawesome-css`,`gatsby-plugin-image`,`gatsby-plugin-sharp`],
 }

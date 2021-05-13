@@ -1,0 +1,18 @@
+.eventsList {
+  margin-top: 55px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-family: "Gill Sans", sans-serif;
+
+}
+
+.event {
+  color: white;
+  padding: 10px;
+  border-bottom: 2px solid white;
+}
+
+.event:first-child {
+  border-top: 2px solid white;
+}
