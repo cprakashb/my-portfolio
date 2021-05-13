@@ -8330,7 +8330,8 @@ class Events extends react__WEBPACK_IMPORTED_MODULE_0__.Component {
     let events = ["Wedding Photography", "Pre-wedding shoot", "Birthday Events"];
     console.log(events);
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-      className: "eventsList"
+      className: "eventsList",
+      id: "events"
     }, events.map(eachEvent => {
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
         className: "event"

@@ -12,7 +12,7 @@ export default class Events extends Component {
     return (
       <div className="eventsList" id="events">
         {events.map((eachEvent) => {
-         return <div className="event">{eachEvent}</div>;
+         return <div key={eachEvent} className="event">{eachEvent}</div>;
         })}
       </div>
     );

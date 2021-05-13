@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "../scss/header.scss";
-import { FaBars } from "react-icons/fa";
+import { FaBars } from "@react-icons/all-files/fa/FaBars";
 export default class Header extends Component {
   myFunction() {
     var x = document.getElementById("myTopnav");

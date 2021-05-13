@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import Header from "./Header";
 import "../scss/contact.scss";
-import { FaInstagram, FaMobileAlt } from "react-icons/fa";
+import { FaInstagram } from "@react-icons/all-files/fa/FaInstagram";
+import { FaMobileAlt } from "@react-icons/all-files/fa/FaMobileAlt";
 
 export default class Contact extends Component {
   componentDidMount() {
