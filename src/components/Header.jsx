@@ -19,7 +19,7 @@ export default class Header extends Component {
           <a href="#home" className="active">
             Home
           </a>
-          <a href="#news">News</a>
+          <a href="#news">Bookings</a>
           <a href="#contact">Contact</a>
           <a href="#about">About</a>
           <a href="#" className="icon" onClick={()=>this.myFunction()}>

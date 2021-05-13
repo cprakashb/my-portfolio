@@ -1,9 +1,16 @@
-.topnav {
-  overflow: hidden;
-  // background-color: #333;
-  background: linear-gradient(45deg, #0000ffb5, #ff4949);
+.header{
+  top: 0;
+  right: 0;
+  left: 0;
+  position: fixed;
 }
 
+
+.topnav {
+  overflow: hidden;
+  background-color: #434343;
+  background-image: linear-gradient(147deg,  #434343 0%,  #000000 94%);
+}
 .topnav a {
   float: left;
   display: block;
@@ -16,13 +23,15 @@
 }
 
 .topnav a:hover {
-  background-color: #ddd;
-  color: black;
+  font-size: 20px;
+   color: white;
+
 }
 
 .topnav a.active {
-  background-color: #ddd;
+  // background-color: #ddd;
   color: white;
+  border-bottom: 2px solid;
 }
 
 .topnav .icon {
