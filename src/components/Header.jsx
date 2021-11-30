@@ -15,17 +15,32 @@ export default class Header extends Component {
     return (
       <div className="header">
         <div className="topnav" id="myTopnav">
-          <a href="#home" className="active">
-            Home
+          <ul class="nav-menu">
+
+            <li class="nav-menu-items">
+              <a href="#home" className="active">
+                Chandra Prakash
           </a>
-          <a href="#events">Events</a>
-          <a href="#contact">Contact</a>
-          <a href="#about">About</a>
-          <a href="#" className="icon" onClick={() => this.myFunction()}>
-            <FaBars />
-          </a>
+            </li>
+
+            <li class="nav-menu-items">
+              <a href="#events">About</a>
+
+            </li>
+            <li class="nav-menu-items">
+              <a href="#contact">Skills</a>
+
+            </li>
+            <li class="nav-menu-items contact-me">
+              <a className="" href="#about">Contact me</a>
+            </li>
+          </ul>
+
+          {/* <a href="#" className="icon" onClick={() => this.myFunction()}>
+              <FaBars />
+            </a> */}
         </div>
-      </div>
+      </div >
     );
   }
 }

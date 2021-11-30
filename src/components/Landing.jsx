@@ -12,13 +12,13 @@ export default class Landing extends Component {
   }
   render() {
     return (
-      <div class="landing-main" id="home">
+      <div  id="home">
         <Header></Header>
-        <div class="landing">
+        {/* <div class="landing">
           <StaticImage className="hero-image" src="../../static/images/PMV_2756.png" alt="A dinosaur" />
         </div>
         <Events></Events>
-        <Contact></Contact>
+        <Contact></Contact> */}
       </div>
     );
   }
