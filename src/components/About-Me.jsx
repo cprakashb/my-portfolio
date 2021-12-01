@@ -28,7 +28,7 @@ export default class AboutMe extends Component {
             {recentTechnologies.map(technology => {
               return (
                 <div>
-                  <img src="./images/tick-mark.svg" />
+                  <img src="./images/tick-mark.svg" alt="tick-mark" />
                   <p className="technology-name">{technology}</p>
                 </div>
               )
