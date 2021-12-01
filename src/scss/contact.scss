@@ -1,6 +1,7 @@
 .contact-section{
   background-color: #494C5D !important;
   display: block;
+  text-align: center;
   @media (min-width:1201px) {
     display: flex !important;
     padding-top: 100px;
@@ -10,10 +11,11 @@
   color: white;
   padding-top: 15px;
   .contact-info{
+    font-size: 25px;
     background-color: inherit;
+    justify-content: center;
   }
   @media (max-width:1201px) {
-    text-align: center;
 
   .logo{
     padding-bottom: 30px;
@@ -27,7 +29,6 @@
     position: relative;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     h5{
       display: inline;
     }
@@ -57,7 +58,6 @@
       }
     }
     .phone-icon,.mail-icon,.follow-icon{
-      left: 20px;
       bottom: 30px;
       position: relative;
     }

@@ -37,8 +37,8 @@ export default class Skills extends Component {
               return (<div className="skills-card">
                 <img className="skills-icon" src={this.state.skills[skill].icon} />
                 <div  className="technologies">
-                  <h6>{skill}</h6>
-                  <p>{this.state.skills[skill].technologies.join(' | ')}</p>
+                  <p className="skill-name">{skill}</p>
+                  <p className="skill-techs">{this.state.skills[skill].technologies.join(' | ')}</p>
                   
                 </div>
               </div>)

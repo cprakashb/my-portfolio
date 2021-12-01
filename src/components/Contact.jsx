@@ -28,7 +28,7 @@ export default class Contact extends Component {
         <p className="follow-me">
         <a href="https://www.linkedin.com/in/chandub15/"><img class="linkedin-icon follow-icon" src="./images/linkedin.svg"></img> </a>
           <div class="contact-info">
-            <h6>Follow me</h6>
+            <h5>Follow me</h5>
           </div>
         </p>
       </div>
