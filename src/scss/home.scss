@@ -22,7 +22,6 @@ body,div{
 }
 #home{
   overflow-x: hidden;
-  filter: brightness(120%);
 }
 a {
   color: #000;
@@ -30,4 +29,8 @@ a {
   &:hover{
     color: #000;
   }
+}
+
+.header,.hero-section,.about-me,.skills-section,.get-in-touch-section,.contact-section{
+  filter: brightness(120%);
 }
