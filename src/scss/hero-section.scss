@@ -2,6 +2,27 @@
   position: relative;
   color: white;
   background-color: #494C5D !important;
+
+.hero-circle{
+  top:50px;
+  right: 0;
+}
+.hero-triangle-1{
+  right: 100px;
+  top: 330px;
+}
+.hero-triangle-2{
+  right: 450px;
+  top: 150px;
+}
+.hero-triangle-3{
+  top: 600px;
+  left: -120px;
+}
+.hero-circle,.hero-triangle-1,.hero-triangle-2,.hero-triangle-3{
+  position: absolute;
+}
+
   @media (min-width:1301px) {
     padding: 220px 150px 150px 150px; 
   .hello{
