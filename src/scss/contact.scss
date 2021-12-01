@@ -12,7 +12,10 @@
   padding-top: 15px;
   .call-me{
    a{ 
-     color: white;
+     color: white !important;
+     &:hover{
+      color: white !important;
+    }
    }
   }
   .contact-info{
