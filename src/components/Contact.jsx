@@ -1,38 +1,30 @@
 import React, { Component } from "react";
 import Header from "./Header";
 import "../scss/contact.scss";
-import { FaInstagram } from "@react-icons/all-files/fa/FaInstagram";
-import { FaMobileAlt } from "@react-icons/all-files/fa/FaMobileAlt";
 
 export default class Contact extends Component {
   componentDidMount() {
-    // document.addEventListener('coxwntextmenu', event => event.preventDefault());
   }
   render() {
     return (
-      <div id="contact">
-        <div className="contact-card">
-          <div className="card">
-            <div className="card-body">
-              {/* <h5 className="card-title">Contact me</h5> */}
-              <div>
-                <FaInstagram className="insta-icon" />{" "}
-                <a
-                  className="insta-id"
-                  href="https://www.instagram.com/5theyephotography/?hl=en"
-                  target="_blank"
-                >
-                  @5theyePhotography
-                </a>
-              </div>
-              <div className="mobile">
-              <FaMobileAlt className="mobile-icon"/>
-              <span className="mobile-no">+91-9705004538</span>
-              </div>
-            </div>
-          </div>
-        </div>
-        
+      <div className="contact-section" id="contact">
+        <p className="logo">
+          <h2>Chandra Prakash</h2>
+        </p>
+        <p className="call-me">
+          <img class="phone-icon" src="./images/telephone.svg"></img>
+          <h4>Call me :</h4>
+          <h6>+91-9014243818</h6>
+        </p>
+        <p className="email-me">
+          <img class="mail-icon" src="./images/mail.svg"></img>
+          <h4>Email me :</h4>
+          <h6>chandraprakashb15@gmail.com</h6>
+        </p>
+        <p className="follow-me">
+          <h4>Follow me :</h4>
+          <a href="https://www.linkedin.com/in/chandub15/"><img class="linkedin-icon" src="./images/linkedin.svg"></img> </a>
+        </p>
       </div>
     );
   }

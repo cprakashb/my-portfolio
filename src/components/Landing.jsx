@@ -6,6 +6,7 @@ import { StaticImage } from "gatsby-plugin-image"
 import Events from "./About-Me";
 import HeroSection from "./hero-section";
 import AboutMe from "./About-Me";
+import Skills from "./Skills";
 
 
 export default class Landing extends Component {
@@ -18,7 +19,9 @@ export default class Landing extends Component {
       <div  id="home">
         <Header></Header>
         <HeroSection></HeroSection>
-        <AboutMe></AboutMe>
+        {/* <AboutMe></AboutMe> */}
+        <Skills></Skills>
+        {/* <Contact></Contact> */}
       </div>
     );
   }

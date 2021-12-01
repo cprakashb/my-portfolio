@@ -1,0 +1,45 @@
+.skills-section{
+  background-color: #494C5D;
+  h1{
+    color:white;
+    text-align: center;
+    top: 80px;
+    position:  relative;
+  }
+  .skills-card-main{
+    @media (max-width:1200px) {
+      margin-top: 100px;
+    }
+    display: flex;
+    background-color: #494C5D;
+    flex-wrap: wrap;
+    justify-content: space-around;    
+    @media (min-width:1201px) {
+      margin: 200px 125px 0 125px;
+    }
+    .skills-card{
+      padding: 40px;
+      margin-bottom: 10px;
+      display: flex;
+      flex: 0 0 95%;
+      @media (min-width:768px) and (max-width:1200px) {
+        flex: 0 0 98%;
+      }
+      @media (min-width:1201px) {
+        flex: 0 0 48%;
+      }
+      .skills-icon{
+        width: 100px;
+        height: 100px;
+      }
+      .technologies{
+        top: 10px;
+        position: relative;
+        padding-left: 40px;
+        p{
+          max-width:80%
+        }
+      }
+    }
+  }
+}

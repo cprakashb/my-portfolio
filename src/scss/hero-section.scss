@@ -2,8 +2,8 @@
   position: relative;
   color: white;
   background-color: #494C5D !important;
-  padding: 300px 150px 150px 150px; 
-
+  @media (min-width:1200px) {
+    padding: 300px 150px 150px 150px; 
   .hello{
     font-size: 50px;
   }
@@ -16,5 +16,20 @@
   .line-2{
     font-size: 24px;
   }
- 
+  }  
+  @media (max-width:1200px) {
+    padding: 150px 15px 15px 15px; 
+  .hello{
+    font-size: 35px;
+  }
+  .name{
+    font-size: 65px;
+  }
+  .line-1{
+    font-size: 45px;
+  }
+  .line-2{
+    font-size: 20px;
+  }
+  }  
 }

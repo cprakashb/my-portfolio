@@ -1,9 +1,12 @@
 .about-me{
   display: flex;
-  padding-left: 150px;
-  padding-right: 150px;
-  padding-top: 125px;
-  padding-bottom: 125px;
+  @media (min-width:1200px) {
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 125px;
+    padding-bottom: 125px;
+  }
+
   .content{
     flex: 50%;
     h1{

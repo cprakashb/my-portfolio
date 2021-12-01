@@ -1,22 +1,23 @@
-#contact {
-  margin: auto;
-  margin-top: 50px;
-  text-align: center;
-  font-family: "Gill Sans", sans-serif;
-  
-  @media (min-width:768px){
-    margin-right: 25%;
-    margin-left: 25%;
+.contact-section{
+  background-color: #494C5D !important;
+  display: flex;
+  color: white;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 125px;
+  @media (min-width:1200px) {
+    .logo{
+      top: 40px;
+      position: relative;
+    }
+    p{
+      flex:25%;
+    }
   }
-}
-.insta-icon ,.mobile-icon{
-  color: #b746a3;
-  font-size: 25px;
-}
-.insta-id,.mobile-no {
-  text-decoration: none;
-  color: #b746a3;
-}
-.mobile{
-    padding-top:10px ;
+
+  .phone-icon,.mail-icon{
+    left: 20px;
+    bottom: 30px;
+    position: relative;
+  }
 }
