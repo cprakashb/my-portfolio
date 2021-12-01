@@ -1,7 +1,7 @@
 .about-me{
   display: block;
   @media (min-width:1301px) {
-    padding: 125px 150px 150px 125px;
+    padding: 125px 150px 100px 125px;
     display: flex;
   }
   padding: 30px 15px 15px 15px;
@@ -38,8 +38,29 @@
     }
   }
   .picture{
+    @media (max-width:1300px) {
+      padding-top: 100px;
+    }
     @media (min-width:1301px) {
       flex: 0 0 50%;
+    }
+    text-align: center;
+    .prf-background{
+      position: absolute;
+    }
+    .prf-pic{
+      @media (min-width:1301px) {
+        top: -50px;
+        left: 50px;
+        position: relative;
+        height: 81%;
+     }
+      @media (max-width:1300px) {
+        top: -62px;
+        left: 50px;
+        position: relative;
+        height: 440px;
+     }
     }
   }
 
