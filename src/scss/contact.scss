@@ -10,6 +10,7 @@
   }
   color: white;
   padding-top: 15px;
+
   .call-me{
    a{ 
      color: white !important;
@@ -22,6 +23,9 @@
     font-size: 25px;
     background-color: inherit;
     justify-content: center;
+    h5,h6{
+      color: white;
+    }
   }
   @media (max-width:1300px) {
 
