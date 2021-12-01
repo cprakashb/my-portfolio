@@ -31,6 +31,9 @@ a {
   }
 }
 
-.header,.hero-section,.about-me,.skills-section,.get-in-touch-section,.contact-section{
+.header{
   filter: brightness(120%);
+}
+.hero-section,.about-me,.skills-section,.get-in-touch-section,.contact-section{
+  filter: brightness(115%);
 }
