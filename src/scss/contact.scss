@@ -13,6 +13,8 @@
     background-color: inherit;
   }
   @media (max-width:1201px) {
+    text-align: center;
+
   .logo{
     padding-bottom: 30px;
   }
@@ -25,12 +27,15 @@
     position: relative;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     h5{
       display: inline;
     }
     h6{
-       display: inline;
-
+      display: inline;
+      top: 5px;
+      left: 5px;
+      position: relative;
     }
   }
 }
@@ -51,11 +56,12 @@
         position: relative;
       }
     }
+    .phone-icon,.mail-icon,.follow-icon{
+      left: 20px;
+      bottom: 30px;
+      position: relative;
+    }
   }
 
-  .phone-icon,.mail-icon,.follow-icon{
-    left: 20px;
-    bottom: 30px;
-    position: relative;
-  }
+
 }

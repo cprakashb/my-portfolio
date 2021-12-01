@@ -1,0 +1,18 @@
+.get-in-touch-section{
+  padding:50px;
+  text-align: center;
+  @media (min-width:1201px) {
+    padding:100px 125px;
+  }
+  .line-1{
+    padding-bottom: 50px;
+  @media (min-width:1201px) {
+    width: 50%;
+  }
+    margin:0 auto;
+  }
+  .say-hello{
+    border: 1px solid;
+    padding: 10px;
+  }
+}

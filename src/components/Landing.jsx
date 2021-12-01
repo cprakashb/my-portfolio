@@ -5,7 +5,7 @@ import HeroSection from "./hero-section";
 import AboutMe from "./About-Me";
 import Skills from "./Skills";
 import Contact from "./Contact";
-
+import GetInTouch from './GetInTouch';
 
 export default class Landing extends Component {
 
@@ -18,6 +18,7 @@ export default class Landing extends Component {
         <HeroSection></HeroSection>
         <AboutMe></AboutMe>
         <Skills></Skills>
+        <GetInTouch></GetInTouch>
         <Contact></Contact>
       </div>
     );

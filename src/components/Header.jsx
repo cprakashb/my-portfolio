@@ -30,7 +30,7 @@ export default class Header extends Component {
             <a href="#skills">Skills</a>
           </li>
           <li class="nav-menu-items ">
-            <a className="contact-me" href="#about">Contact me</a>
+            <a className="contact-me" href="#contact">Contact me</a>
           </li>
         </ul>
       </div >
