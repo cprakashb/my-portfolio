@@ -4,7 +4,7 @@ import "../scss/about-me.scss";
 export default class AboutMe extends Component {
   render() {
 
-    const recentTechnologies = ['JavaScript (ES6+)', 'TypeScript', 'Next.js', 'Gatsby.js', 'React', 'Redux', 'Angular', 'Node.js', 'AWS']
+    const recentTechnologies = ['JavaScript', 'TypeScript', 'Next.js', 'Gatsby.js', 'React', 'Redux', 'Angular', 'Node.js', 'AWS']
     return (
       <div className="about-me" id="about-me">
         <div className="content">
