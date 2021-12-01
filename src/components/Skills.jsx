@@ -35,7 +35,7 @@ export default class Skills extends Component {
           {
             Object.keys(this.state.skills).map(skill => {
               return (<div className="skills-card">
-                <img className="skills-icon" src={this.state.skills[skill].icon} />
+                <img className="skills-icon" alt={this.state.skills[skill].icon} src={this.state.skills[skill].icon} />
                 <div  className="technologies">
                   <p className="skill-name">{skill}</p>
                   <p className="skill-techs">{this.state.skills[skill].technologies.join(' | ')}</p>
