@@ -5,7 +5,7 @@ export default class HeroSection extends Component {
   render() {
     return (
       <div className="hero-section" >
-          <p className="hello">Hello I'm</p>
+          <p className="hello">Hello, I'm</p>
           <p className="name">Chandra Prakash</p>
           <p className="line-1">I build things for the web.</p>
           <p className="line-2">I'm an India-based software engineer who specializes
