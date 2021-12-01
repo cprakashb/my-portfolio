@@ -20,10 +20,10 @@ export default class AboutMe extends Component {
             My main focus these days is building accessible, inclusive products
             and digital experiences..
           </p>
-          <h6>
+          <p className="recent-tech">
             Here are a few technologies I've been working
             with recently:
-          </h6>
+          </p>
           <div className="technologies">
             {recentTechnologies.map(technology => {
               return (
