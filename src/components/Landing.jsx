@@ -14,9 +14,6 @@ export default class Landing extends Component {
   render() {
     return (
       <div id="home">
-        <style>
-          @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
-        </style>
         <Header></Header>
         <HeroSection></HeroSection>
         <AboutMe></AboutMe>
