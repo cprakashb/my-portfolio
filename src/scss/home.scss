@@ -17,7 +17,7 @@
 
 
 body,div{
-  background-color: #C9C9C9;
+  background-color: rgb(231,231,231);
   font-family: 'Montserrat Regular', sans-serif;
 }
 #home{
@@ -31,9 +31,3 @@ a {
   }
 }
 
-.header{
-  filter: brightness(115%);
-}
-.hero-section,.about-me,.skills-section,.get-in-touch-section,.contact-section{
-  filter: brightness(115%);
-}
