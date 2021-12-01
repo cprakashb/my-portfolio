@@ -1,0 +1,29 @@
+.about-me{
+  display: flex;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 125px;
+  padding-bottom: 125px;
+  .content{
+    flex: 50%;
+    h1{
+      padding-bottom: 25px;
+    }
+    .technologies{
+      display: grid;
+      grid-template-columns: auto auto auto;
+      padding: 10px;
+      div{
+        padding-bottom: 10px;
+      }
+      .technology-name{
+        display: inline;
+        padding-left: 30px;
+      }
+    }
+  }
+  .picture{
+    flex: 50%;
+  }
+
+}

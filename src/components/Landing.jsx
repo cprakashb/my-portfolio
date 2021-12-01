@@ -3,8 +3,10 @@ import Header from "./Header";
 import "../scss/home.scss";
 import Contact from "./Contact";
 import { StaticImage } from "gatsby-plugin-image"
-import Events from "./Events";
+import Events from "./About-Me";
 import HeroSection from "./hero-section";
+import AboutMe from "./About-Me";
+
 
 export default class Landing extends Component {
 
@@ -16,11 +18,7 @@ export default class Landing extends Component {
       <div  id="home">
         <Header></Header>
         <HeroSection></HeroSection>
-        {/* <div class="landing">
-          <StaticImage className="hero-image" src="../../static/images/PMV_2756.png" alt="A dinosaur" />
-        </div>
-        <Events></Events>
-        <Contact></Contact> */}
+        <AboutMe></AboutMe>
       </div>
     );
   }
