@@ -70,6 +70,8 @@
   float: right;
   position: relative;
   user-select: none;
+  background-color: transparent;
+  filter: brightness(115%);
 }
 
 .header .menu-icon .navicon {
