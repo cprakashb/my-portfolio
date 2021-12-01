@@ -28,6 +28,9 @@
       margin-bottom: 10px;
       display: flex;
       flex: 0 0 100%;
+      @media (max-width:1300px) {
+        flex-wrap: wrap;
+      }
       @media (min-width:768px) and (max-width:1300px) {
         flex: 0 0 98%;
       }
@@ -37,8 +40,15 @@
       .skills-icon{
         width: 100px;
         height: 100px;
+        @media (max-width:1300px) {
+          flex: 0 0 100%;          
+        }
       }
       .technologies{
+        @media (max-width:1300px) {
+          flex: 0 0 100%; 
+          text-align: center;
+        }
         top: 10px;
         position: relative;
         padding-left: 40px;
