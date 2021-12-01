@@ -8,7 +8,7 @@
   position: fixed;
   width: 100%;
   z-index: 3;
-  @media (max-width:1200px) {
+  @media (max-width:1300px) {
     padding: 20px 0; 
   }
 }
@@ -26,12 +26,12 @@
   display: block;
   text-decoration: none;
   margin: 20px 20px;
-  @media (min-width:1200px) {
+  @media (min-width:1301px) {
     padding: 20px 20px;
   }
   &.contact-me{
     border: 1px solid black;
-  @media (max-width:1200px) {
+  @media (max-width:1300px) {
     width: fit-content;
     padding: 10px;
   }
@@ -44,7 +44,7 @@
   font-size: 2em;
   padding: 10px 20px;
   text-decoration: none;
-  @media (min-width:1200px) {
+  @media (min-width:1301px) {
     font-size: 30px;
     padding: 40px 20px 30px 125px;
   }
@@ -56,7 +56,7 @@
   clear: both;
   max-height: 0;
   transition: max-height .2s ease-out;
-  @media (min-width:1201px) {
+  @media (min-width:1301px) {
     padding-right: 225px;
   }
 }
@@ -128,7 +128,7 @@
 }
 
 
-@media (min-width: 1200px) {
+@media (min-width: 1300px) {
   .header li {
     float: left;
   }

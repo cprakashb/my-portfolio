@@ -4,23 +4,23 @@
     color:white;
     text-align: center;
     top: 120px;
-    @media (max-width:1200px) {
+    @media (max-width:1300px) {
       top: 80px;
     }
     position:  relative;
   }
   .skills-card-main{
-    @media (max-width:1200px) {
+    @media (max-width:1300px) {
       margin-top: 100px;
     }
     display: flex;
     background-color: #494C5D;
     flex-wrap: wrap;
-    @media (min-width:1200px) {
+    @media (min-width:1301px) {
      justify-content: space-around;    
     }
     padding: 10px;
-    @media (min-width:1201px) {
+    @media (min-width:1301px) {
       margin: 200px 125px 0 125px;
     }
     .skills-card{
@@ -28,10 +28,10 @@
       margin-bottom: 10px;
       display: flex;
       flex: 0 0 100%;
-      @media (min-width:768px) and (max-width:1200px) {
+      @media (min-width:768px) and (max-width:1300px) {
         flex: 0 0 98%;
       }
-      @media (min-width:1201px) {
+      @media (min-width:1301px) {
         flex: 0 0 48%;
       }
       .skills-icon{
