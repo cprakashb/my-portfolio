@@ -1,21 +1,59 @@
 .contact-section{
   background-color: #494C5D !important;
-  display: flex;
+  display: block;
+  @media (min-width:1201px) {
+    display: flex !important;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 125px;
+  }
   color: white;
-  padding-top: 100px;
-  padding-bottom: 100px;
-  padding-left: 125px;
-  @media (min-width:1200px) {
+  padding-top: 15px;
+  .contact-info{
+    background-color: inherit;
+  }
+  @media (max-width:1201px) {
+  .logo{
+    padding-bottom: 30px;
+  }
+  p{
+    padding-bottom: 30px;
+  }
+  .contact-info{
+    top: 5px;
+    left: 9px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    h5{
+      display: inline;
+    }
+    h6{
+       display: inline;
+
+    }
+  }
+}
+  @media (min-width:1201px) {
     .logo{
       top: 40px;
       position: relative;
     }
     p{
-      flex:25%;
+      flex:0 0 25%;
+    }
+    .contact-info{
+      display: flex;
+     flex-wrap: wrap;
+      h6{
+        top: 5px;
+        left: 9px;
+        position: relative;
+      }
     }
   }
 
-  .phone-icon,.mail-icon{
+  .phone-icon,.mail-icon,.follow-icon{
     left: 20px;
     bottom: 30px;
     position: relative;

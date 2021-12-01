@@ -13,7 +13,10 @@
     display: flex;
     background-color: #494C5D;
     flex-wrap: wrap;
-    justify-content: space-around;    
+    @media (min-width:1200px) {
+     justify-content: space-around;    
+    }
+    padding: 10px;
     @media (min-width:1201px) {
       margin: 200px 125px 0 125px;
     }
@@ -36,9 +39,6 @@
         top: 10px;
         position: relative;
         padding-left: 40px;
-        p{
-          max-width:80%
-        }
       }
     }
   }

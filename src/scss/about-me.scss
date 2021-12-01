@@ -1,20 +1,24 @@
 .about-me{
-  display: flex;
+  display: block;
   @media (min-width:1200px) {
-    padding-left: 150px;
-    padding-right: 150px;
-    padding-top: 125px;
-    padding-bottom: 125px;
+    padding: 125px 150px 150px 125px;
+    display: flex;
   }
+  padding: 30px 15px 15px 15px;
 
   .content{
-    flex: 50%;
+    @media (min-width:1200px) {
+      flex: 0 0 50%;
+    }
     h1{
       padding-bottom: 25px;
     }
     .technologies{
       display: grid;
-      grid-template-columns: auto auto auto;
+      @media (min-width:1200px) {
+        grid-template-columns: auto auto auto;
+      }
+      grid-template-columns: auto ;
       padding: 10px;
       div{
         padding-bottom: 10px;
@@ -26,7 +30,9 @@
     }
   }
   .picture{
-    flex: 50%;
+    @media (min-width:1200px) {
+      flex: 0 0 50%;
+    }
   }
 
 }
