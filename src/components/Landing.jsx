@@ -33,6 +33,7 @@ export default class Landing extends Component {
             name="viewport"
             content="width=device-width, initial-scale=1.0"
           />
+           <link rel="icon" type="image/x-icon" href="/images/profile.jpg"></link>
         </Helmet>
         <Header></Header>
         <HeroSection></HeroSection>
