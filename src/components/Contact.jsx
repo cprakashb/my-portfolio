@@ -20,7 +20,7 @@ export default class Contact extends Component {
           </a>
         </p>
         <p className="email-me">
-        <a href="mailto:chandraprakashb15@gmail.com">
+        <a href="mailto:chandraprakashb15@gmail.com" >
           <img class="mail-icon" alt="mail-icon" src="./images/mail.svg"></img>
           <div class="contact-info">
             <h5>Email:</h5>
