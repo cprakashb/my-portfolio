@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "../scss/header.scss";
 
-import downloadFile from '../../static/resume/Chandra_Prakash_Bommadevara_Resume_Cisco.pdf';
+import downloadFile from '../../resume/Chandra_Prakash_Bommadevara_Resume_Cisco.pdf';
 export default class Header extends Component {
   myFunction() {
     var x = document.getElementById("myTopnav");
