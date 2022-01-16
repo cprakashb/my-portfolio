@@ -1,6 +1,9 @@
 .about-me{
   display: block;
   position: relative;
+  @media (max-width:1300px) {
+    padding:70px 20px;
+  }
   @media (min-width:1301px) {
     padding: 125px 150px 100px 125px;
     display: flex;
@@ -9,7 +12,7 @@
 
   .content{
     @media (min-width:1301px) {
-      flex: 0 0 50%;
+      flex: 0 0 60%;
       font-size: 22px !important;
       .recent-tech{
         font-size: 22px !important;
@@ -44,7 +47,7 @@
       padding-top: 100px;
     }
     @media (min-width:1301px) {
-      flex: 0 0 50%;
+      flex: 0 0 35%;
     }
     text-align: center;
     .prf-background{

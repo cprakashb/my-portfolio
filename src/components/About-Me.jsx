@@ -16,7 +16,7 @@ export default class AboutMe extends Component {
           </p>
           <p>
             I have worked with big clients on their Digital transformation journey.
-            I've had the privilege of building products for the corporations like IBM, Cisco Systems.
+            I've had the privilege of building products for the corporations like <b>IBM, Cisco Systems</b>.
             My main focus these days is building accessible, inclusive products
             and digital experiences..
           </p>

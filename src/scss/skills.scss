@@ -1,70 +1,74 @@
-.skills-section{
-  background-color: #494C5D;
-  .skills-circle{
+.skills-section {
+  background-color: #494c5d;
+  .skills-circle {
     position: absolute;
     left: -260px;
     top: -250px;
   }
-  h1{
-    color:white;
+  h1 {
+    color: white;
     text-align: center;
     padding: 80px 0px;
-    @media (max-width:1300px) {
+    @media (max-width: 1300px) {
       padding: 60px 0px;
     }
-    position:  relative;
+    position: relative;
   }
-  .skills-card-main{
-    @media (max-width:1300px) {
-      padding-top: 100px;
+  .skills-card-main {
+    @media (max-width: 1300px) {
       padding-bottom: 100px;
-
     }
     display: flex;
-    background-color: #494C5D;
+    background-color: #494c5d;
     flex-wrap: wrap;
-    @media (min-width:1301px) {
-     justify-content: space-around;    
+    @media (min-width: 1301px) {
+      justify-content: space-around;
     }
     padding: 10px;
-    @media (min-width:1301px) {
-      padding: 0px 125px 150px
+    @media (min-width: 1301px) {
+      padding: 0px 125px 150px;
     }
-    .skills-card{
+    .skills-card {
       padding: 40px;
       margin-bottom: 10px;
       display: flex;
       flex: 0 0 100%;
-      @media (max-width:1300px) {
+      @media (max-width: 1300px) {
         flex-wrap: wrap;
         padding: 40px 20px;
       }
-      @media (min-width:768px) and (max-width:1300px) {
+      @media (min-width: 768px) and (max-width: 1300px) {
         flex: 0 0 98%;
       }
-      @media (min-width:1301px) {
+      @media (min-width: 1301px) {
         flex: 0 0 48%;
       }
-      .skills-icon{
+      .skills-icon {
         width: 100px;
         height: 100px;
-        @media (max-width:1300px) {
-          flex: 0 0 100%;          
+        @media (max-width: 1300px) {
+          flex: 0 0 100%;
         }
       }
-      .technologies{
-        @media (max-width:1300px) {
-          flex: 0 0 100%; 
+      .technologies {
+        @media (max-width: 1300px) {
+          flex: 0 0 100%;
           text-align: center;
+          display: flex;
+          flex-wrap: wrap;
         }
         top: 10px;
         position: relative;
-        padding-left: 40px;
-        .skill-name{
-          font-size: 25px;
+        @media (min-width: 1301px) {
+          padding-left: 40px;
         }
-        .skill-techs{
+        .skill-name {
+          font-size: 25px;
+          flex: 0 0 100%;
+        }
+        .skill-techs {
           font-size: 20px;
+          flex: 0 0 100%;
         }
       }
     }
