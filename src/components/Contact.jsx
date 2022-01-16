@@ -36,7 +36,7 @@ export default class Contact extends Component {
           </a>
         </p>
         <p className="follow-me">
-          <a href="https://www.linkedin.com/in/chandub15/">
+          <a className="social-media-links"  href="https://www.linkedin.com/in/chandub15/">
             <img
               class="linkedin-icon follow-icon"
               alt="linkedin-icon"
