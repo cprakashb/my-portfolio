@@ -16,10 +16,10 @@ export default class Contact extends Component {
               alt="phone-icon"
               src="./images/telephone.svg"
             ></img>
-            <div class="contact-info">
+            <span class="contact-info">
               <span className="contact-heading">Mobile:</span>
               <span className="contact-value">+91-9014243818</span>
-            </div>
+            </span>
           </a>
         </p>
         <p className="email-me">
@@ -29,10 +29,10 @@ export default class Contact extends Component {
               alt="mail-icon"
               src="./images/mail.svg"
             ></img>
-            <div class="contact-info">
+            <span class="contact-info">
               <span className="contact-heading">Email:</span>
               <span className="contact-value">chandraprakashb15@gmail.com</span>
-            </div>
+            </span>
           </a>
         </p>
         <p className="follow-me">
@@ -41,11 +41,11 @@ export default class Contact extends Component {
               class="linkedin-icon follow-icon"
               alt="linkedin-icon"
               src="./images/linkedin.svg"
-            ></img>{" "}
+            ></img>
           </a>
-          <div class="contact-info">
+          <span class="contact-info">
             <span className="contact-heading">Follow me</span>
-          </div>
+          </span>
         </p>
       </div>
     );
