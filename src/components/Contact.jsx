@@ -20,11 +20,13 @@ export default class Contact extends Component {
           </a>
         </p>
         <p className="email-me">
+        <a href="mailto:chandraprakashb15@gmail.com">
           <img class="mail-icon" alt="mail-icon" src="./images/mail.svg"></img>
           <div class="contact-info">
             <h5>Email:</h5>
             <h6>chandraprakashb15@gmail.com</h6>
           </div>
+          </a>
         </p>
         <p className="follow-me">
           <a href="https://www.linkedin.com/in/chandub15/"><img class="linkedin-icon follow-icon" alt="linkedin-icon" src="./images/linkedin.svg"></img> </a>

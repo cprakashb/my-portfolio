@@ -29,13 +29,13 @@ export default class Skills extends Component {
   }
   render() {
     return (
-      <div className="skills-section" id="skills">
+      <div className="skills-section" id="skills" tabIndex={0}>
         <img className="skills-circle" src="./images/circle.svg" alt="circle"/>
         <h1>Skills</h1>
         <div className="skills-card-main">
           {
             Object.keys(this.state.skills).map(skill => {
-              return (<div className="skills-card">
+              return (<div className="skills-card" tabIndex={0}>
                 <img className="skills-icon" alt={this.state.skills[skill].icon} src={this.state.skills[skill].icon} />
                 <div  className="technologies">
                   <p className="skill-name">{skill}</p>
