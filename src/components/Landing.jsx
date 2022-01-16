@@ -6,6 +6,7 @@ import AboutMe from "./About-Me";
 import Skills from "./Skills";
 import Contact from "./Contact";
 import GetInTouch from "./GetInTouch";
+import { Helmet } from "react-helmet";
 
 export default class Landing extends Component {
   componentDidMount() {}
