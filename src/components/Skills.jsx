@@ -30,7 +30,7 @@ export default class Skills extends Component {
   render() {
     return (
       <div className="skills-section" id="skills">
-        <img className="skills-circle" src="./images/circle.svg" />
+        <img className="skills-circle" src="./images/circle.svg" alt="circle"/>
         <h1>Skills</h1>
         <div className="skills-card-main">
           {
