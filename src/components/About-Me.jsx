@@ -15,10 +15,9 @@ export default class AboutMe extends Component {
             Hello! My name is Chandra Prakash and I am a full stack engineer.
           </p>
           <p>
-            I have worked with big clients on their Digital transformation journey.
+            I have worked with multiple organizations on their Digital transformation journey.
             I've had the privilege of building products for the corporations like <b>IBM, Cisco Systems</b>.
-            My main focus these days is building accessible, inclusive products
-            and digital experiences..
+            My main focus these days is building accessible, responsive and inclusive products
           </p>
           <p className="recent-tech">
             Here are a few technologies I've been working

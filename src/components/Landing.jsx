@@ -13,8 +13,13 @@ export default class Landing extends Component {
   render() {
     return (
       <div id="home">
-        <Helmet>
+        <Helmet
+          htmlAttributes={{
+            lang: "en",
+          }}
+        >
           <meta charSet="utf-8" />
+          <title>Chandra Prakash Bommadevara</title>
           <meta
             name="description"
             content="Chandra Prakash Bommadevara Portfolio"
