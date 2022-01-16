@@ -10,7 +10,7 @@ export default class Contact extends Component {
           <h2>Chandra Prakash</h2>
         </p>
         <p className="call-me">
-          <a href="tel:+91-9014243818">
+          <a className="call-link"  href="tel:+91-9014243818">
             <img
               class="phone-icon"
               alt="phone-icon"
