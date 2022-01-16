@@ -6,7 +6,7 @@ export default class AboutMe extends Component {
 
     const recentTechnologies = ['JavaScript', 'TypeScript', 'Next.js', 'Gatsby.js', 'React', 'Redux', 'Angular', 'Node.js', 'AWS']
     return (
-      <div className="about-me" id="about-me">
+      <div className="about-me" id="about-me" tabIndex="0">
         <div className="content">
           <h1>
             About Me

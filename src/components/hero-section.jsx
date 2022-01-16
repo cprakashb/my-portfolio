@@ -4,7 +4,7 @@ import "../scss/hero-section.scss";
 export default class HeroSection extends Component {
   render() {
     return (
-      <div className="hero-section" >
+      <div className="hero-section" tabIndex="0">
         <img className="hero-circle" src="./images/circle.svg" alt="circle"/>
         <img className="hero-triangle-1" src="./images/triangle.svg" alt="triangle"/>
         <img className="hero-triangle-2" src="./images/triangle.svg" alt="triangle"/>

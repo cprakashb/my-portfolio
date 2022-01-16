@@ -1,9 +1,8 @@
 import React, { Component } from "react";
 import "../scss/header.scss";
+
+import downloadFile from '../../static/resume/Chandra_Prakash_Bommadevara_Resume_Cisco.pdf';
 export default class Header extends Component {
-
-
-
   myFunction() {
     var x = document.getElementById("myTopnav");
     if (x.className === "topnav") {
@@ -13,14 +12,25 @@ export default class Header extends Component {
     }
   }
 
+  onKeyDown(e) {
+    console.log(e);
+  }
+
   render() {
     return (
       <div className="header">
         <a href="#" class="logo">
           Chandra Prakash
-          </a>
+        </a>
         <input class="menu-btn" type="checkbox" id="menu-btn" />
-        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+        <label
+          class="menu-icon"
+          tabIndex="0"
+          for="menu-btn"
+          onKeyDown={(e) => this.onKeyDown(e)}
+        >
+          <span class="navicon"></span>
+        </label>
         <ul class="nav-menu menu">
           <li class="nav-menu-items">
             <a href="#about-me">About Me</a>
@@ -29,10 +39,17 @@ export default class Header extends Component {
             <a href="#skills">Skills</a>
           </li>
           <li class="nav-menu-items ">
-            <a className="contact-me" href="#contact">Contact me</a>
+            <a className="contact-me" href="#contact">
+              Contact me
+            </a>
+          </li>
+          <li>
+            <a href={downloadFile} target="_blank" rel="noreferrer">
+              <img src="https://img.icons8.com/ios/50/000000/open-resume.png" />
+            </a>
           </li>
         </ul>
-      </div >
+      </div>
     );
   }
 }
