@@ -8,6 +8,7 @@
   position: fixed;
   width: 100%;
   z-index: 3;
+  max-width: 3000px;
   @media (max-width:1300px) {
     padding: 20px 0; 
   }
@@ -57,7 +58,7 @@
   max-height: 0;
   transition: max-height .2s ease-out;
   @media (min-width:1301px) {
-    padding-right: 225px;
+    padding-right: 70px;
   }
 }
 
@@ -109,7 +110,7 @@
 }
 
 .header .menu-btn:checked ~ .menu {
-  max-height: 240px;
+  max-height: 340px;
 }
 
 .header .menu-btn:checked ~ .menu-icon .navicon {
