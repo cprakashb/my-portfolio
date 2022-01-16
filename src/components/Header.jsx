@@ -45,7 +45,7 @@ export default class Header extends Component {
           </li>
           <li>
             <a href={downloadFile} target="_blank" rel="noreferrer">
-              <img src="https://img.icons8.com/ios/50/000000/open-resume.png" />
+              <img src="https://img.icons8.com/ios/50/000000/open-resume.png"  alt="view-resume"/>
             </a>
           </li>
         </ul>

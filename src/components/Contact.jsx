@@ -7,7 +7,7 @@ export default class Contact extends Component {
     return (
       <div className="contact-section" id="contact">
         <p className="logo">
-          <h2>Chandra Prakash</h2>
+          Chandra Prakash
         </p>
         <p className="call-me">
           <a className="call-link"  href="tel:+91-9014243818">
@@ -17,8 +17,8 @@ export default class Contact extends Component {
               src="./images/telephone.svg"
             ></img>
             <div class="contact-info">
-              <h5>Mobile:</h5>
-              <h6>+91-9014243818</h6>
+              <span className="contact-heading">Mobile:</span>
+              <span className="contact-value">+91-9014243818</span>
             </div>
           </a>
         </p>
@@ -30,8 +30,8 @@ export default class Contact extends Component {
               src="./images/mail.svg"
             ></img>
             <div class="contact-info">
-              <h5>Email:</h5>
-              <h6>chandraprakashb15@gmail.com</h6>
+              <span className="contact-heading">Email:</span>
+              <span className="contact-value">chandraprakashb15@gmail.com</span>
             </div>
           </a>
         </p>
@@ -44,7 +44,7 @@ export default class Contact extends Component {
             ></img>{" "}
           </a>
           <div class="contact-info">
-            <h5>Follow me</h5>
+            <span className="contact-heading">Follow me</span>
           </div>
         </p>
       </div>
