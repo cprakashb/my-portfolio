@@ -12,7 +12,7 @@ export default class Skills extends Component {
       'Frameworks': {
         'icon': './images/database.svg', 'technologies': [
           'Next.js ', 'Gatsby ', 'Angular ', 'Express', 'Strapi ', 'Material ',
-          'Bootstrap', 'Spring Boot (Basics)', 'Jest ', 'Cypress']
+          'Bootstrap', 'Spring Boot (Basics)', 'Jest ', 'Storybook']
       },
       'Database': { 'icon': './images/framework.svg', 'technologies': ['MongoDB ', 'MySQL ', 'Cloudant', 'CouchDB'] },
       'Devops': { 'icon': './images/devops.svg', 'technologies': ['AWS', 'Jenkins'] },
