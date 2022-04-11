@@ -15,8 +15,8 @@ export default class Skills extends Component {
           'Bootstrap', 'Spring Boot (Basics)', 'Jest ', 'Storybook']
       },
       'Database': { 'icon': './images/framework.svg', 'technologies': ['MongoDB ', 'MySQL ', 'Cloudant', 'CouchDB'] },
-      'Devops': { 'icon': './images/devops.svg', 'technologies': ['AWS', 'Jenkins'] },
-      'IDE and other tools': { 'icon': './images/tools.svg', 'technologies': ['Visual Studio', 'Postman'] },
+      'Devops': { 'icon': './images/process.png', 'technologies': ['AWS', 'Jenkins'] },
+      'IDE and other tools': { 'icon': './images/tools_white.svg', 'technologies': ['Visual Studio', 'Postman'] },
       'Others': {
         'icon': './images/others.svg', 'technologies': ['Vercel ', ' GitHub ', ' Docker', ' Microservices Architecture ',
           ' SQL ', ' NOSQL ', ' Agile Methodology ', ' CI/CD ', ' JIRA']
@@ -30,12 +30,11 @@ export default class Skills extends Component {
   render() {
     return (
       <div className="skills-section" id="skills" tabIndex={0}>
-        <img className="skills-circle" src="./images/circle.svg" alt="circle"/>
         <h1>Skills</h1>
         <div className="skills-card-main">
           {
             Object.keys(this.state.skills).map(skill => {
-              return (<div className="skills-card" tabIndex={0}>
+              return (<div className="skills-card" >
                 <img className="skills-icon" alt={this.state.skills[skill].icon} src={this.state.skills[skill].icon} />
                 <div  className="technologies">
                   <p className="skill-name">{skill}</p>

@@ -1,5 +1,5 @@
 .contact-section{
-  background-color: #494C5D !important;
+  // background-color: #494C5D !important;
   display: block;
   text-align: center;
   padding: 50px 20px;
@@ -9,23 +9,23 @@
     padding-bottom: 100px;
     padding-left: 125px;
   }
-  color: white;
+  // color: white;
   padding-top: 15px;
 
   .call-me{
-   a{ 
-     color: white !important;
-     &:hover{
-      color: white !important;
-    }
-   }
+  //  a{ 
+  //    color: white !important;
+  //    &:hover{
+  //     color: white !important;
+  //   }
+  //  }
   }
   .contact-info{
     font-size: 25px;
     background-color: inherit;
     justify-content: center;
     .contact-heading,.contact-value{
-      color: white;
+      // color: white;
     }
   }
   @media (max-width:1300px) {

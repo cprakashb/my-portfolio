@@ -25,7 +25,6 @@ export default class Header extends Component {
         <input class="menu-btn" type="checkbox" id="menu-btn" />
         <label
           class="menu-icon"
-          tabIndex="0"
           for="menu-btn"
           onKeyDown={(e) => this.onKeyDown(e)}
         >

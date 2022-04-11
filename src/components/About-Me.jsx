@@ -1,12 +1,14 @@
 import React, { Component } from "react";
-import "../scss/about-me.scss";
+import "../scss/aboutme.scss";
 
 export default class AboutMe extends Component {
   render() {
 
     const recentTechnologies = ['JavaScript', 'TypeScript', 'Next.js', 'Gatsby.js', 'React', 'Redux', 'Angular', 'Node.js', 'AWS']
     return (
-      <div className="about-me" id="about-me" tabIndex="0">
+      <div className="about-me" id="about-me" >
+        <img className="circle" src="./images/circle.svg" alt="circle"/>
+        <img className="triangle-3" src="./images/triangle2.svg" alt="triangle"/>
         <div className="content">
           <h1>
             About Me
@@ -27,7 +29,7 @@ export default class AboutMe extends Component {
             {recentTechnologies.map(technology => {
               return (
                 <div>
-                  <img src="./images/tick-mark.svg" alt="tick-mark" />
+                  <img className="tick-mark" src="./images/tick-mark_white.svg" alt="tick-mark" />
                   <p className="technology-name">{technology}</p>
                 </div>
               )
@@ -35,7 +37,7 @@ export default class AboutMe extends Component {
           </div>
         </div>
         <div className="picture">
-          <img  className="prf-background" src="./images/profile-background.svg" alt="profile"/>
+          {/* <img  className="prf-background" src="./images/profile-background.svg" alt="profile"/> */}
           <img className="prf-pic" src="./images/profile.jpg" alt="profile"/>
         </div>
       </div>

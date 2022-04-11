@@ -36,7 +36,7 @@ export default class Landing extends Component {
            <link rel="icon" type="image/x-icon" href="/images/profile.jpg"></link>
         </Helmet>
         <Header></Header>
-        <HeroSection></HeroSection>
+        {/* <HeroSection></HeroSection> */}
         <AboutMe></AboutMe>
         <Skills></Skills>
         <GetInTouch></GetInTouch>

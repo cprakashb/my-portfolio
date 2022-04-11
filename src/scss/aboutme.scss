@@ -1,20 +1,19 @@
-.about-me {
+.about-me{
   display: block;
-  background-color: #494c5d;
-  color: white;
   position: relative;
   margin-top: 120px;
+  background-color: #494c5d;
   @media (max-width: 1300px) {
     padding: 70px 20px;
   }
   @media (min-width: 1301px) {
-    padding: 125px 150px 0 125px;
+    padding: 125px ;
     display: flex;
   }
   padding: 30px 15px 0 15px;
 
-  .content {
-    background-color: #494c5d;
+  .content{
+    background-color: inherit;
     animation-name: moveInLeft;
     animation-duration: 2s;
     color: white;
@@ -33,7 +32,7 @@
       padding-bottom: 25px;
     }
     .technologies {
-      background-color: #494c5d;
+      background-color: inherit;
       display: grid;
       @media (min-width: 1301px) {
         grid-template-columns: auto auto auto;
@@ -42,7 +41,10 @@
       padding: 10px;
       div {
         padding-bottom: 10px;
-        background-color: #494c5d;
+        background-color: inherit;
+      }
+      .tick-mark {
+        width: 20px;
       }
       .technology-name {
         display: inline;
@@ -51,8 +53,7 @@
     }
   }
   .picture {
-    background-color: #494c5d;
-    // padding-top: 50px;
+    background-color: inherit;
     animation-name: moveInRight;
     animation-duration: 2s;
     @media (max-width: 1300px) {
@@ -70,10 +71,11 @@
     }
     .prf-pic {
       @media (min-width: 1301px) {
-        top: -50px;
-        left: 50px;
+        top: 0;
+        right: 0;
         position: relative;
-        height: 81%;
+        height: 400px;
+        transform: translate(25px, 33px);   
       }
       @media (min-width: 501px) and (max-width: 1300px) {
         top: -62px;
@@ -91,34 +93,53 @@
   }
 }
 
+
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  100% {
+    transform: translate(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  80% {
+    // transform: translateX(20px);
+  }
+  100% {
+    transform: translate(0px);
+    opacity: 1;
+  }
+}
+
+
+
 .circle {
-  top: 0;
-  right: 0;
-  transform: translate(250px, -200px)
-}
-.triangle-1 {
-  top: 0;
-  right: 0;
-  transform: translate(6px, 200px);
-}
-.triangle-2 {
-  top: 0;
-  right: 0;
-  transform: translate(-330px, 10px);
+  top: -200px;
+  right: -150px;
+  animation-name: moveInRight;
+  animation-duration: 2s;
 }
 .triangle-3 {
-  top: 0;
-  left: 0;
-  transform: translate(-150px, 480px);
-
+  top: 1020px;
+  left: -150px;
+  transform: translate(0, 0);
+  animation-name: moveInLeft;
+  animation-duration: 2s;
+  @media (min-width:1301px) {
+    top: 480px;
+  }
 }
 .circle,
 .triangle-1,
 .triangle-2,
 .triangle-3 {
   position: absolute;
-}
-
-.tick-mark {
-  width: 20px;
 }

@@ -7,6 +7,7 @@ export default class GetInTouch extends Component {
   render() {
     return (
       <div className="get-in-touch-section" id="contact">
+        <img className="skills-circle" src="./images/circle.svg" alt="circle"/>
         <h1>Get In Touch</h1>
         <p className="line-1">Want to know how I may help you? or you have a question or just want to say hi,
            My inbox is always open. I'll try my best to get back to you!</p>

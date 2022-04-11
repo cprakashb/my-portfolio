@@ -1,18 +1,29 @@
-.get-in-touch-section{
-  padding:90px 20px;
+.get-in-touch-section {
+  position: relative;
+  .skills-circle {
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translate(-250px, -250px);
+
+  }
+  padding: 90px 20px;
   text-align: center;
   font-size: 22px;
-  @media (min-width:1301px) {
-    padding:120px 125px;
+  background-color: #494c5d;
+  color: white;
+  @media (min-width: 1301px) {
+    padding: 120px 125px;
   }
-  .line-1{
+  .line-1 {
     padding-bottom: 50px;
-  @media (min-width:1301px) {
-    width: 50%;
+    @media (min-width: 1301px) {
+      width: 50%;
+    }
+    margin: 0 auto;
   }
-    margin:0 auto;
-  }
-  .say-hello{
+  .say-hello {
+    color: white;
     border: 1px solid;
     padding: 10px;
     cursor: pointer;

@@ -1,12 +1,10 @@
+@import "../scss/styles.scss";
+
 .skills-section {
-  background-color: #494c5d;
-  .skills-circle {
-    position: absolute;
-    left: -260px;
-    top: 1300px;
-  }
+  // background-color: #494c5d;
+
   h1 {
-    color: white;
+    color: black;
     text-align: center;
     padding: 80px 0px;
     @media (max-width: 1300px) {
@@ -19,7 +17,7 @@
       padding-bottom: 100px;
     }
     display: flex;
-    background-color: #494c5d;
+    // background-color: #494c5d;
     flex-wrap: wrap;
     @media (min-width: 1301px) {
       justify-content: space-around;
@@ -31,6 +29,8 @@
     .skills-card {
       padding: 40px;
       margin-bottom: 10px;
+      background-color: #494c5d;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
       display: flex;
       flex: 0 0 100%;
       @media (max-width: 1300px) {
@@ -43,14 +43,26 @@
       @media (min-width: 1301px) {
         flex: 0 0 48%;
       }
+      &:nth-child(even) {
+        animation-name: moveInLeft;
+        animation-duration: 2s;
+      }
+      &:nth-child(odd) {
+        animation-name: moveInRight;
+        animation-duration: 2s;
+      }
       .skills-icon {
         width: 100px;
         height: 100px;
         @media (max-width: 1300px) {
-          flex: 0 0 100%;
+          left: 50%;
+          position: relative;
+          transform: translate(-47px, -3px);
         }
       }
       .technologies {
+        background-color: #494c5d;
+        color: white;
         @media (max-width: 1300px) {
           flex: 0 0 100%;
           text-align: center;
