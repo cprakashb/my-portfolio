@@ -14,7 +14,7 @@ export default class Contact extends Component {
             <img
               class="phone-icon"
               alt="phone-icon"
-              src="./images/telephone.svg"
+              src="./images/telephone_black.svg"
             ></img>
             <span class="contact-info">
               <span className="contact-heading">Mobile:</span>
@@ -27,7 +27,7 @@ export default class Contact extends Component {
             <img
               class="mail-icon"
               alt="mail-icon"
-              src="./images/mail.svg"
+              src="./images/mail_black.svg"
             ></img>
             <span class="contact-info">
               <span className="contact-heading">Email:</span>
@@ -40,7 +40,7 @@ export default class Contact extends Component {
             <img
               class="linkedin-icon follow-icon"
               alt="linkedin-icon"
-              src="./images/linkedin.svg"
+              src="./images/linkedin_black.svg"
             ></img>
           </a>
           <span class="contact-info">
