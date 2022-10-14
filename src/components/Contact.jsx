@@ -18,7 +18,7 @@ export default class Contact extends Component {
             ></img>
             <span class="contact-info">
               <span className="contact-heading">Email:</span>
-              <span className="contact-value">chandraprakashb15@gmail.com</span>
+              <span className="contact-value">cprakashb.dev@gmail.com</span>
             </span>
           </a>
         </p>
