@@ -9,19 +9,6 @@ export default class Contact extends Component {
         <p className="logo">
           Chandra Prakash
         </p>
-        <p className="call-me">
-          <a className="call-link"  href="tel:(705)-970-4579">
-            <img
-              class="phone-icon"
-              alt="phone-icon"
-              src="./images/telephone_black.svg"
-            ></img>
-            <span class="contact-info">
-              <span className="contact-heading">Mobile:</span>
-              <span className="contact-value">+91-9014243818</span>
-            </span>
-          </a>
-        </p>
         <p className="email-me">
           <a className="email-link" href="mailto:chandraprakashb15@gmail.com">
             <img
