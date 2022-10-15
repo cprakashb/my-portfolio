@@ -6,9 +6,6 @@ export default class Contact extends Component {
   render() {
     return (
       <div className="contact-section" id="contact">
-        <p className="logo">
-          Chandra Prakash
-        </p>
         <p className="email-me">
           <a className="email-link" href="mailto:chandraprakashb15@gmail.com">
             <img
@@ -23,7 +20,7 @@ export default class Contact extends Component {
           </a>
         </p>
         <p className="follow-me">
-          <a className="social-media-links"  href="https://www.linkedin.com/in/chandub15/">
+          <a className="social-media-links"  href="https://ca.linkedin.com/in/chandraprakashb">
             <img
               class="linkedin-icon follow-icon"
               alt="linkedin-icon"
