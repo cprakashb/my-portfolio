@@ -39,7 +39,7 @@ export default class AboutMe extends Component {
         </div>
         <div className="picture">
           {/* <img  className="prf-background" src="./images/profile-background.svg" alt="profile"/> */}
-          <img className="prf-pic" src="./images/profile.jpg" alt="profile"/>
+          <img className="prf-pic" src="./images/profile_new.jpg" alt="profile"/>
         </div>
       </div>
     );
