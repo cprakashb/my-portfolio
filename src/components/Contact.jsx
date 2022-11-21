@@ -7,7 +7,7 @@ export default class Contact extends Component {
     return (
       <div className="contact-section" id="contact">
         <p className="email-me">
-          <a className="email-link" href="mailto:chandraprakashb15@gmail.com">
+          <a className="email-link" href="mailto:cprakashb.dev@gmail.com">
             <img
               class="mail-icon"
               alt="mail-icon"
