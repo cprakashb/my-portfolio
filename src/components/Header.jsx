@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "../scss/header.scss";
 
-import downloadFile from '../../resume/Chandra_Prakash_FE_Developer.pdf';
+// import downloadFile from '../../resume/Chandra_Prakash_FE_Developer.pdf';
 export default class Header extends Component {
   myFunction() {
     var x = document.getElementById("myTopnav");
@@ -43,9 +43,9 @@ export default class Header extends Component {
             </a>
           </li>
           <li>
-            <a href={downloadFile} target="_blank" rel="noreferrer">
+            {/* <a href={downloadFile} target="_blank" rel="noreferrer">
               <img src="https://img.icons8.com/ios/50/000000/open-resume.png"  alt="view-resume"/>
-            </a>
+            </a> */}
           </li>
         </ul>
       </div>

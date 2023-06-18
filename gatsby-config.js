@@ -1,10 +1,10 @@
 /**
- * Configure your Gatsby site with this file.
- *
- * See: https://www.gatsbyjs.com/docs/gatsby-config/
+ * @type {import('gatsby').GatsbyConfig}
  */
-
 module.exports = {
-  /* Your site config here */
-  plugins: [`gatsby-plugin-sass`,`gatsby-plugin-fontawesome-css`,`gatsby-plugin-image`,`gatsby-plugin-sharp`],
-}
+  siteMetadata: {
+    title: `my-portfolio`,
+    siteUrl: `https://www.yourdomain.tld`
+  },
+  plugins: ["gatsby-plugin-sass"]
+};

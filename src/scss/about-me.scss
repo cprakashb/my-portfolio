@@ -1,124 +1,125 @@
-.about-me {
-  display: block;
-  background-color: #494c5d;
-  color: white;
-  position: relative;
-  margin-top: 120px;
-  @media (max-width: 1300px) {
-    padding: 70px 20px;
-  }
-  @media (min-width: 1301px) {
-    padding: 125px 150px 0 125px;
-    display: flex;
-  }
-  padding: 30px 15px 0 15px;
+// .about-me {
+//   display: block;
+//   background-color: #494c5d;
+//   color: white;
+//   position: relative;
+//   margin-top: 120px;
+//   @media (max-width: 1300px) {
+//     padding: 70px 20px;
+//   }
+//   @media (min-width: 1301px) {
+//     padding: 125px 150px 0 125px;
+//     display: flex;
+//   }
+//   padding: 30px 15px 0 15px;
 
-  .content {
-    background-color: #494c5d;
-    animation-name: moveInLeft;
-    animation-duration: 2s;
-    color: white;
-    @media (min-width: 1301px) {
-      flex: 0 0 70%;
-      font-size: 22px !important;
-      .recent-tech {
-        font-size: 22px !important;
-        margin-top: 0;
-        margin-bottom: 0.5rem;
-        font-weight: 500;
-        line-height: 1.2;
-      }
-    }
-    h1 {
-      padding-bottom: 25px;
-    }
-    .technologies {
-      background-color: #494c5d;
-      display: grid;
-      @media (min-width: 1301px) {
-        grid-template-columns: auto auto auto;
-      }
-      grid-template-columns: auto;
-      padding: 10px;
-      div {
-        padding-bottom: 10px;
-        background-color: #494c5d;
-      }
-      .technology-name {
-        display: inline;
-        padding-left: 30px;
-      }
-    }
-  }
-  .picture {
-    background-color: #494c5d;
-    // padding-top: 50px;
-    animation-name: moveInRight;
-    animation-duration: 2s;
-    @media (max-width: 1300px) {
-      padding-top: 100px;
-    }
-    @media (min-width: 1301px) {
-      flex: 0 0 35%;
-    }
-    text-align: center;
-    .prf-background {
-      position: absolute;
-      @media (max-width: 500px) {
-        width: 230px;
-      }
-    }
-    .prf-pic {
-      @media (min-width: 1301px) {
-        top: -50px;
-        left: 50px;
-        position: relative;
-        height: 81%;
-      }
-      @media (min-width: 501px) and (max-width: 1300px) {
-        top: -62px;
-        left: 50px;
-        position: relative;
-        height: 440px;
-      }
-      @media (max-width: 500px) {
-        top: -52px;
-        left: 43px;
-        position: relative;
-        height: 290px;
-      }
-    }
-  }
-}
+//   .content {
+//     background-color: #494c5d;
+//     animation-name: moveInLeft;
+//     animation-duration: 2s;
+//     color: white;
+//     @media (min-width: 1301px) {
+//       flex: 0 0 70%;
+//       font-size: 22px !important;
+//       .recent-tech {
+//         font-size: 22px !important;
+//         margin-top: 0;
+//         margin-bottom: 0.5rem;
+//         font-weight: 500;
+//         line-height: 1.2;
+//       }
+//     }
+//     h1 {
+//       padding-bottom: 25px;
+//     }
+//     .technologies {
+//       background-color: #494c5d;
+//       display: grid;
+//       @media (min-width: 1301px) {
+//         grid-template-columns: auto auto auto;
+//       }
+//       grid-template-columns: auto;
+//       padding: 10px;
+//       div {
+//         padding-bottom: 10px;
+//         background-color: #494c5d;
+//       }
+//       .technology-name {
+//         display: inline;
+//         padding-left: 30px;
+//       }
+//     }
+//   }
+//   .picture {
+//     background-color: #494c5d;
+//     // padding-top: 50px;
+//     animation-name: moveInRight;
+//     animation-duration: 2s;
+//     @media (max-width: 1300px) {
+//       padding-top: 100px;
+//     }
+//     @media (min-width: 1301px) {
+//       flex: 0 0 35%;
+//     }
+//     text-align: center;
+//     .prf-background {
+//       position: absolute;
+//       @media (max-width: 500px) {
+//         width: 230px;
+//       }
+//     }
+//     .prf-pic {
+//       @media (min-width: 1301px) {
+//         top: -50px;
+//         left: 50px;
+//         position: relative;
+//         height: 81%;
+//       }
+//       @media (min-width: 501px) and (max-width: 1300px) {
+//         top: -62px;
+//         left: 50px;
+//         position: relative;
+//         height: 440px;
+//       }
+//       @media (max-width: 500px) {
+//         top: -52px;
+//         left: 43px;
+//         position: relative;
+//         height: 290px;
+//       }
+//     }
+//   }
+// }
 
-.circle {
-  top: 0;
-  right: 0;
-  transform: translate(250px, -200px)
-}
-.triangle-1 {
-  top: 0;
-  right: 0;
-  transform: translate(6px, 200px);
-}
-.triangle-2 {
-  top: 0;
-  right: 0;
-  transform: translate(-330px, 10px);
-}
-.triangle-3 {
-  top: 0;
-  left: 0;
-  transform: translate(-150px, 480px);
+// .circle {
+//   top: 0;
+//   right: 0;
+//   transform: translate(250px, -200px)
+// }
+// .triangle-1 {
+//   top: 0;
+//   right: 0;
+//   transform: translate(6px, 200px);
+// }
+// .triangle-2 {
+//   top: 0;
+//   right: 0;
+//   transform: translate(-330px, 10px);
+// }
+// .triangle-3 {
+//   top: 0;
+//   left: 0;
+//   transform: translate(-150px, 480px);
 
-}
-.circle,
-.triangle-1,
-.triangle-2,
-.triangle-3 {
-  position: absolute;
-}
+// }
+// .circle,
+// .triangle-1,
+// .triangle-2,
+// .triangle-3 {
+//   position: absolute;
+// }
 
-.tick-mark {
-  width: 20px;
-}
+// .tick-mark {
+//   width: 20px;
+// }
+

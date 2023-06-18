@@ -1,0 +1,28 @@
+.footer {
+
+    background-color: #d3d3d34a !important;
+    position: absolute;
+    right: 0;
+    left: 0;
+
+    .social-links {
+        height: 60px;
+
+    }
+
+    border-color: #eee;
+
+    .social-links-list {
+        list-style: none;
+        height: 60px;
+        padding: 0;
+
+        a {
+            text-decoration: none;
+            line-height: 21px;
+            font-size: 15px;
+            opacity: .6;
+            color: #333;
+        }
+    }
+}

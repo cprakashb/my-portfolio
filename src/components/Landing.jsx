@@ -7,6 +7,8 @@ import Skills from "./Skills";
 import Contact from "./Contact";
 import GetInTouch from "./GetInTouch";
 import { Helmet } from "react-helmet";
+import WorkHistory from "./Work-History";
+import Footer from "./Footer";
 
 export default class Landing extends Component {
   componentDidMount() {}
@@ -35,12 +37,17 @@ export default class Landing extends Component {
           />
            <link rel="icon" type="image/x-icon" href="/images/profile.jpg"></link>
         </Helmet>
-        <Header></Header>
+        <div className="d-flex flex-column" style={{gap:"40px"}}> 
+        {/* <Header></Header> */}
         {/* <HeroSection></HeroSection> */}
         <AboutMe></AboutMe>
+        <WorkHistory></WorkHistory>
         <Skills></Skills>
-        <GetInTouch></GetInTouch>
-        <Contact></Contact>
+       {/*  <GetInTouch></GetInTouch>
+        <Contact></Contact> */}
+        </div>
+        <Footer></Footer>
+
       </div>
     );
   }

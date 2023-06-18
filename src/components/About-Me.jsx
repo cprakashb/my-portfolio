@@ -5,22 +5,26 @@ import "../scss/aboutme.scss";
 export default class AboutMe extends Component {
   render() {
 
-    const recentTechnologies = ['JavaScript', 'TypeScript', 'Next.js', 'Gatsby.js', 'React', 'Redux', 'Angular', 'Node.js', 'AWS']
+    const recentTechnologies = ['JavaScript', 'TypeScript', 'Angular','Next.js', 'Gatsby.js', 'React', 'Redux', 'Node.js', 'AWS','React Testing Library','Jest','Playwright']
     return (
-      <div className="about-me" id="about-me" >
-        <img className="circle" src="./images/circle.svg" alt="circle"/>
-        <img className="triangle-3" src="./images/triangle2.svg" alt="triangle"/>
-        <div className="content">
-          <h1>
-            About Me
+      <div className="about-me d-flex flex-column align-items-center gap-3 pb-5 mt-5" id="about-me" >
+        <div className="frame">
+        <div className="photo">
+          <div className="picture">
+          </div>
+        </div>
+        </div>
+        <div className="content mt-4">
+          <h1 className="name text-center text-lg-left">
+            Chandra Prakash
           </h1>
+          <h4 className="role text-center text-lg-left mb-5">
+            Web Developer
+          </h4>
           <p>
-            Hello! My name is Chandra Prakash and I am a full stack engineer.
-          </p>
-          <p>
-            I have worked with multiple organizations on their Digital transformation journey.
-            I've had the privilege of building products for the corporations like <b>IBM, Cisco Systems</b>.
-            My main focus these days is building accessible, responsive and inclusive products
+            Experienced web developer proficient in JavaScript, HTML, and CSS.
+            Skilled in front-end frameworks like React and Angular, with expertise in back-end development using Node.js and databases such as MongoDB and MySQL.
+            Committed to delivering high-quality, user-friendly web applications.
           </p>
           <p className="recent-tech">
             Here are a few technologies I've been working
@@ -37,10 +41,7 @@ export default class AboutMe extends Component {
             })}
           </div>
         </div>
-        <div className="picture">
-          {/* <img  className="prf-background" src="./images/profile-background.svg" alt="profile"/> */}
-          <img className="prf-pic" src="./images/profile_new.jpg" alt="profile"/>
-        </div>
+
       </div>
     );
   }

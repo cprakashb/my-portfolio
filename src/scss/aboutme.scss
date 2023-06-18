@@ -1,47 +1,26 @@
 .about-me{
-  display: block;
-  position: relative;
-  margin-top: 120px;
-  background-color: #494c5d;
-  @media (max-width: 1300px) {
-    padding: 70px 20px;
-  }
-  @media (min-width: 1301px) {
-    padding: 125px ;
-    display: flex;
-  }
-  padding: 30px 15px 0 15px;
 
   .content{
-    background-color: inherit;
-    animation-name: moveInLeft;
-    animation-duration: 2s;
-    color: white;
-    @media (min-width: 1301px) {
-      flex: 0 0 70%;
-      font-size: 22px !important;
-      .recent-tech {
-        font-size: 22px !important;
-        margin-top: 0;
-        margin-bottom: 0.5rem;
-        font-weight: 500;
-        line-height: 1.2;
-      }
-    }
-    h1 {
-      padding-bottom: 25px;
-    }
+ 
     .technologies {
-      background-color: inherit;
+      // background-color: inherit;
       display: grid;
-      @media (min-width: 1301px) {
+      grid-template-columns: auto;
+
+      @media (min-width: 576px) {
+        grid-template-columns: auto auto;
+      }
+      @media (min-width: 768px) {
         grid-template-columns: auto auto auto;
       }
-      grid-template-columns: auto;
-      padding: 10px;
+      @media (min-width: 1200px) {
+        grid-template-columns: auto auto auto auto;
+      }
+      
+    
       div {
         padding-bottom: 10px;
-        background-color: inherit;
+        // background-color: inherit;
       }
       .tick-mark {
         width: 20px;
@@ -52,46 +31,46 @@
       }
     }
   }
-  .picture {
-    background-color: inherit;
-    animation-name: moveInRight;
-    animation-duration: 2s;
-    @media (max-width: 1300px) {
-      padding-top: 100px;
-    }
-    @media (min-width: 1301px) {
-      flex: 0 0 35%;
-    }
-    text-align: center;
-    .prf-background {
-      position: absolute;
-      @media (max-width: 500px) {
-        width: 230px;
-      }
-    }
-    .prf-pic {
-      border-radius: 30px;
-      @media (min-width: 1301px) {
-        top: 0;
-        right: 0;
-        position: relative;
-        height: 400px;
-        transform: translate(25px, 33px);   
-      }
-      @media (min-width: 501px) and (max-width: 1300px) {
-        top: -62px;
-        left: 50px;
-        position: relative;
-        height: 440px;
-      }
-      @media (max-width: 500px) {
-        top: -52px;
-        left: 43px;
-        position: relative;
-        height: 290px;
-      }
-    }
-  }
+  // .picture {
+  //   background-color: inherit;
+  //   animation-name: moveInRight;
+  //   animation-duration: 2s;
+  //   @media (max-width: 1300px) {
+  //     padding-top: 100px;
+  //   }
+  //   @media (min-width: 1301px) {
+  //     flex: 0 0 35%;
+  //   }
+  //   text-align: center;
+  //   .prf-background {
+  //     position: absolute;
+  //     @media (max-width: 500px) {
+  //       width: 230px;
+  //     }
+  //   }
+    // .prf-pic {
+    //   border-radius: 30px;
+    //   @media (min-width: 1301px) {
+    //     // top: 0;
+    //     // right: 0;
+    //     // position: relative;
+    //     // height: 400px;
+    //     transform: translate(25px, 33px);   
+    //   }
+    //   @media (min-width: 501px) and (max-width: 1300px) {
+    //     // top: -62px;
+    //     // left: 50px;
+    //     // position: relative;
+    //     height: 440px;
+    //   }
+    //   @media (max-width: 500px) {
+    //     // top: -52px;
+    //     // left: 43px;
+    //     // position: relative;
+    //     height: 290px;
+    //   }
+    
+  // }
 }
 
 
@@ -122,25 +101,53 @@
 
 
 
-.circle {
-  top: -200px;
-  right: -150px;
-  animation-name: moveInRight;
-  animation-duration: 2s;
-}
-.triangle-3 {
-  top: 1020px;
-  left: -150px;
-  transform: translate(0, 0);
-  animation-name: moveInLeft;
-  animation-duration: 2s;
-  @media (min-width:1301px) {
-    top: 480px;
+
+
+
+.about-me{
+  .frame{
+    width: 300px;
+    height: 300px;
   }
-}
-.circle,
-.triangle-1,
-.triangle-2,
-.triangle-3 {
-  position: absolute;
+  .photo{
+    display: block;
+    position: relative;
+    padding-bottom: calc(100% - 36px);
+    background-color: #fff;
+    border-radius: 1000px;
+    border: 18px solid #fff;
+    overflow: hidden;
+    -webkit-box-shadow: 0 0 25px 0 rgba(0,0,0,.1);
+    -moz-box-shadow: 0 0 25px 0 rgba(0,0,0,.1);
+    box-shadow: 0 0 25px 0 rgba(0,0,0,.1);
+  }
+  .picture{
+    background-position: calc(50%) calc(30px);
+    background-image: url(/images/profile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    position: absolute;
+    top: -18px;
+    bottom: -18px;
+    left: -18px;
+    right: -18px;
+  }
+  .role{
+    font-size: 16px;
+    color: #aaa;
+    font-weight: 300;
+    margin-bottom: 10px;
+    // font-family: "Poppins",Helvetica,sans-serif;
+
+  }
+  .name{
+    font-size: 48px;
+    font-weight: 600;
+    font-style: normal;
+    color: #333;
+  }
+  .technologies{
+    filter: grayscale(1);
+  }
 }
