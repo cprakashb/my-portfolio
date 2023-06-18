@@ -3,15 +3,26 @@
 .header {
 
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  position: fixed;
   z-index: 3;
   border-radius: 30px;
   margin-top: 30px;
   margin: 20px auto auto auto;
   position: relative;
   background-color: white;
+  max-width: inherit;
+  width: inherit;
 
   &.fixedTop {
+    @media (max-width:768px) {
+      max-width: 83%;
+    }
+
+    @media (max-width:575px) {
+      max-width: 94%;
+    }
+   
+    // left: 50vh;
+    position: fixed;
     margin-top: 0px;
     border-radius: 0 0px 30px 30px;
   }

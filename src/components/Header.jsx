@@ -25,7 +25,7 @@ const Header = () => {
   }, [])
 
   return (
-    <div className="header container" id="header" ref={stickyHeader}>
+    <div className="header " id="header" ref={stickyHeader}>
       <div className="d-flex flex-row justify-content-between align-items-center gap-2">
         <a href="#" className="logo">
           <img src="./images/logo.svg" width={60} /> Chandra Prakash
@@ -57,20 +57,20 @@ const Header = () => {
           </label>
 
           <ul class="nav-menu menu menu__box">
-          <li class="nav-menu-items menu__item">
-            <a href="#about-me">About Me</a>
-          </li>
-          <li class="nav-menu-items menu__item">
-            <a href="#skills">Skills</a>
-          </li>
-          <li class="nav-menu-items menu__item">
-            <a href={downloadFile} target="_blank" rel="noreferrer">
-              Resume
-            </a>
-          </li>
-        </ul>
+            <li class="nav-menu-items menu__item">
+              <a href="#about-me">About Me</a>
+            </li>
+            <li class="nav-menu-items menu__item">
+              <a href="#skills">Skills</a>
+            </li>
+            <li class="nav-menu-items menu__item">
+              <a href={downloadFile} target="_blank" rel="noreferrer">
+                Resume
+              </a>
+            </li>
+          </ul>
 
-   
+
         </div>
       </div>
 

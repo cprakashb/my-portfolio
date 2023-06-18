@@ -8,7 +8,7 @@ import WorkHistory from "./Work-History";
 import Footer from "./Footer";
 
 export default class Landing extends Component {
-  componentDidMount() {}
+  componentDidMount() { }
   render() {
     return (
       <div id="home" className="container">
@@ -32,15 +32,13 @@ export default class Landing extends Component {
             name="viewport"
             content="width=device-width, initial-scale=1.0"
           />
-           <link rel="icon" type="image/x-icon" href="/images/profile.jpg"></link>
+          <link rel="icon" type="image/x-icon" href="/images/profile.jpg"></link>
         </Helmet>
         <Header></Header>
-
-        <div className="d-flex flex-column" style={{gap:"40px"}}> 
-        <AboutMe></AboutMe>
-        <WorkHistory></WorkHistory>
-        <Skills></Skills>
-     
+          <div className="container container-fluid d-flex flex-column" style={{ gap: "40px" }}>
+            <AboutMe></AboutMe>
+            <WorkHistory></WorkHistory>
+            <Skills></Skills>
         </div>
         <Footer></Footer>
 
