@@ -1,54 +1,82 @@
-import React, { Component } from "react";
+import React, { Component, useLayoutEffect, useRef } from "react";
 import "../scss/header.scss";
+import downloadFile from '../../Chandra+Prakash+Resume_Canada_Web+developer+.pdf';
 
-// import downloadFile from '../../resume/Chandra_Prakash_FE_Developer.pdf';
-export default class Header extends Component {
-  myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-      x.className += " responsive";
-    } else {
-      x.className = "topnav";
+const Header = () => {
+
+  const stickyHeader = useRef()
+
+  useLayoutEffect(() => {
+    const header = document.getElementById('header')
+    let fixedTop = stickyHeader.current?.offsetTop
+    const fixedHeader = () => {
+      console.log(header);
+
+      if (header)
+        if (header?.classList) {
+          if (window.scrollY > fixedTop) {
+            header?.classList.add('fixedTop')
+          } else {
+            header?.classList.remove('fixedTop')
+          }
+        }
     }
-  }
+    window.addEventListener('scroll', fixedHeader)
+  }, [])
 
-  onKeyDown(e) {
-    console.log(e);
-  }
-
-  render() {
-    return (
-      <div className="header">
-        <a href="#" class="logo">
-          Chandra Prakash
+  return (
+    <div className="header container" id="header" ref={stickyHeader}>
+      <div className="d-flex flex-row justify-content-between align-items-center">
+        <a href="#" className="logo">
+          <img src="./images/logo.svg" width={60} /> Chandra Prakash
         </a>
-        <input class="menu-btn" type="checkbox" id="menu-btn" />
-        <label
-          class="menu-icon"
-          for="menu-btn"
-          onKeyDown={(e) => this.onKeyDown(e)}
-        >
-          <span class="navicon"></span>
-        </label>
-        <ul class="nav-menu menu">
+
+        <ul class="nav-menu menu d-none d-lg-flex flex-row">
           <li class="nav-menu-items">
             <a href="#about-me">About Me</a>
           </li>
           <li class="nav-menu-items">
             <a href="#skills">Skills</a>
           </li>
-          <li class="nav-menu-items ">
-            <a className="contact-me" href="#contact">
-              Contact me
+          {/* <li class="nav-menu-items ">
+              <a className="contact-me" href="#contact">
+                Contact me
+              </a>
+            </li> */}
+          <li>
+            <a href={downloadFile} target="_blank" rel="noreferrer">
+              Resume
             </a>
           </li>
-          <li>
-            {/* <a href={downloadFile} target="_blank" rel="noreferrer">
-              <img src="https://img.icons8.com/ios/50/000000/open-resume.png"  alt="view-resume"/>
-            </a> */}
+        </ul>
+
+        <div class="hamburger-menu d-block d-lg-none">
+          <input id="menu__toggle" type="checkbox" />
+          <label class="menu__btn" for="menu__toggle">
+            <span></span>
+          </label>
+
+          <ul class="nav-menu menu menu__box">
+          <li class="nav-menu-items menu__item">
+            <a href="#about-me">About Me</a>
+          </li>
+          <li class="nav-menu-items menu__item">
+            <a href="#skills">Skills</a>
+          </li>
+          <li class="nav-menu-items menu__item">
+            <a href={downloadFile} target="_blank" rel="noreferrer">
+              Resume
+            </a>
           </li>
         </ul>
+
+   
+        </div>
       </div>
-    );
-  }
+
+
+    </div>
+  );
 }
+
+export default Header;

@@ -1,11 +1,8 @@
 import React, { Component } from "react";
 import Header from "./Header";
 import "../scss/home.scss";
-import HeroSection from "./hero-section";
 import AboutMe from "./About-Me";
 import Skills from "./Skills";
-import Contact from "./Contact";
-import GetInTouch from "./GetInTouch";
 import { Helmet } from "react-helmet";
 import WorkHistory from "./Work-History";
 import Footer from "./Footer";
@@ -38,13 +35,11 @@ export default class Landing extends Component {
            <link rel="icon" type="image/x-icon" href="/images/profile.jpg"></link>
         </Helmet>
         <div className="d-flex flex-column" style={{gap:"40px"}}> 
-        {/* <Header></Header> */}
-        {/* <HeroSection></HeroSection> */}
+        <Header></Header>
         <AboutMe></AboutMe>
         <WorkHistory></WorkHistory>
         <Skills></Skills>
-       {/*  <GetInTouch></GetInTouch>
-        <Contact></Contact> */}
+     
         </div>
         <Footer></Footer>
 

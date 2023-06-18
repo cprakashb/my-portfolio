@@ -7,7 +7,7 @@ export default class AboutMe extends Component {
 
     const recentTechnologies = ['JavaScript', 'TypeScript', 'Angular','Next.js', 'Gatsby.js', 'React', 'Redux', 'Node.js', 'AWS','React Testing Library','Jest','Playwright']
     return (
-      <div className="about-me d-flex flex-column align-items-center gap-3 pb-5 mt-5" id="about-me" >
+      <div className="about-me d-flex flex-column align-items-center gap-3 pb-5" id="about-me" >
         <div className="frame">
         <div className="photo">
           <div className="picture">
@@ -19,7 +19,7 @@ export default class AboutMe extends Component {
             Chandra Prakash
           </h1>
           <h4 className="role text-center text-lg-left mb-5">
-            Web Developer
+            Web Developer - Full Stack
           </h4>
           <p>
             Experienced web developer proficient in JavaScript, HTML, and CSS.

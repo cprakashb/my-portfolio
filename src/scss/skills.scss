@@ -2,14 +2,14 @@
 
 .skills-section {
   // background-color: #494c5d;
-
+scroll-margin: 120px;
   h1 {}
 
   .skills-card-main {
 
     .skills-card {
       width: 350px;
-      height: 300px;
+      height: 350px;
 
       box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
       @media (max-width: 1400px) {

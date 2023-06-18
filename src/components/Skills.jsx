@@ -15,7 +15,7 @@ export default class Skills extends Component {
           'Bootstrap', 'Spring Boot (Basics)', 'Jest ', 'Storybook']
       },
       'Database': { 'icon': './images/database_white.svg', 'technologies': ['MongoDB ', 'MySQL ', 'Cloudant', 'CouchDB'] },
-      'Devops': { 'icon': './images/process.svg', 'technologies': ['AWS', 'Jenkins'] },
+      'Devops': { 'icon': './images/process.svg', 'technologies': ['AWS (S3, Cloudfront, EC2)', 'Jenkins'] },
       'IDE and other tools': { 'icon': './images/tools_white.svg', 'technologies': ['Visual Studio', 'Postman'] },
       'Others': {
         'icon': './images/others_white.svg', 'technologies': ['Vercel ', ' GitHub ', ' Docker', ' Microservices Architecture ',
@@ -29,7 +29,7 @@ export default class Skills extends Component {
   }
   render() {
     return (
-      <div className="skills-section" id="skills" tabIndex={0}>
+      <div className="skills-section" id="skills">
         <h2 className="text-left pb-2">Skills</h2>
         <div className="skills-container pt-5">
 
