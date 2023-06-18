@@ -11,7 +11,7 @@ export default class Landing extends Component {
   componentDidMount() {}
   render() {
     return (
-      <div id="home">
+      <div id="home" className="container">
         <Helmet
           htmlAttributes={{
             lang: "en",
@@ -34,8 +34,9 @@ export default class Landing extends Component {
           />
            <link rel="icon" type="image/x-icon" href="/images/profile.jpg"></link>
         </Helmet>
-        <div className="d-flex flex-column" style={{gap:"40px"}}> 
         <Header></Header>
+
+        <div className="d-flex flex-column" style={{gap:"40px"}}> 
         <AboutMe></AboutMe>
         <WorkHistory></WorkHistory>
         <Skills></Skills>

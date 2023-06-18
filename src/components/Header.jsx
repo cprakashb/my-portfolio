@@ -26,7 +26,7 @@ const Header = () => {
 
   return (
     <div className="header container" id="header" ref={stickyHeader}>
-      <div className="d-flex flex-row justify-content-between align-items-center">
+      <div className="d-flex flex-row justify-content-between align-items-center gap-2">
         <a href="#" className="logo">
           <img src="./images/logo.svg" width={60} /> Chandra Prakash
         </a>

@@ -8,7 +8,7 @@ export default class WorkHistory extends Component {
   }
   render() {
     return (
-      <div className="work-exp-section mt-4" id="work-exp" >
+      <div className="work-exp-section" id="work-exp" >
         <h2 className="text-left pb-2">Work Experience</h2>
         <div className="work-exp-container pt-5">
           <div class="stepper d-flex flex-column mt-2 ml-2">
