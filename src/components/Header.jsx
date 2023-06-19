@@ -1,12 +1,17 @@
-import React, { Component, useLayoutEffect, useRef } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import "../scss/header.scss";
 import downloadFile from '../../Chandra+Prakash+Resume_Canada_Web+developer+.pdf';
 
 const Header = () => {
 
+  const [isChecked, setIsChecked] = useState(false);
+
+  const handleChange = () => {
+    setIsChecked(current => !current);
+  };
   const stickyHeader = useRef()
 
-  useLayoutEffect(() => {
+  useEffect(() => {
     const header = document.getElementById('header')
     let fixedTop = stickyHeader.current?.offsetTop
     const fixedHeader = () => {
@@ -33,16 +38,11 @@ const Header = () => {
 
         <ul class="nav-menu menu d-none d-lg-flex flex-row">
           <li class="nav-menu-items">
-            <a href="#about-me">About Me</a>
+            <a href="#about-me" >About Me</a>
           </li>
           <li class="nav-menu-items">
             <a href="#skills">Skills</a>
           </li>
-          {/* <li class="nav-menu-items ">
-              <a className="contact-me" href="#contact">
-                Contact me
-              </a>
-            </li> */}
           <li>
             <a href={downloadFile} target="_blank" rel="noreferrer">
               Resume
@@ -51,20 +51,20 @@ const Header = () => {
         </ul>
 
         <div class="hamburger-menu d-block d-lg-none">
-          <input id="menu__toggle" type="checkbox" />
+          <input id="menu__toggle" type="checkbox" defaultChecked={isChecked} checked={isChecked} onChange={()=>handleChange()}/>
           <label class="menu__btn" for="menu__toggle">
             <span></span>
           </label>
 
           <ul class="nav-menu menu menu__box">
             <li class="nav-menu-items menu__item">
-              <a href="#about-me">About Me</a>
+              <a href="#about-me" onClick={()=>handleChange()}>About Me</a>
             </li>
             <li class="nav-menu-items menu__item">
-              <a href="#skills">Skills</a>
+              <a href="#skills" onClick={()=>handleChange()}>Skills</a>
             </li>
             <li class="nav-menu-items menu__item">
-              <a href={downloadFile} target="_blank" rel="noreferrer">
+              <a href={downloadFile} target="_blank" rel="noreferrer" onClick={()=>handleChange()}>
                 Resume
               </a>
             </li>

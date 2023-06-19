@@ -86,6 +86,10 @@
 
 #menu__toggle:checked~.menu__box {
   left: 0 !important;
+  max-width: 50%;
+  a{
+    width: 100%;
+  }
 }
 
 .menu__btn {
