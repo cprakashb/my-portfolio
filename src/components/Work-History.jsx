@@ -17,7 +17,7 @@ export default class WorkHistory extends Component {
             <div class="d-flex mb-1 gap-3">
               <div class="d-flex flex-column pr-4 align-items-center">
                 <div class="rounded-circle py-2 px-3 stepper-number text-white mb-1">1</div>
-                <div class="line h-100 d-none"></div>
+                <div class="line h-100"></div>
               </div>
               <div>
 
@@ -31,7 +31,7 @@ export default class WorkHistory extends Component {
             <div class="d-flex mb-1 gap-3">
               <div class="d-flex flex-column pr-4 align-items-center">
                 <div class="rounded-circle py-2 px-3 stepper-number text-white mb-1">2</div>
-                <div class="line h-100 d-none"></div>
+                <div class="line h-100 "></div>
               </div>
               <div>
 
@@ -46,7 +46,7 @@ export default class WorkHistory extends Component {
             <div class="d-flex mb-1 gap-3">
               <div class="d-flex flex-column pr-4 align-items-center">
                 <div class="rounded-circle py-2 px-3 stepper-number text-white mb-1">3</div>
-                <div class="line h-100"></div>
+                <div class="line h-100 d-none"></div>
               </div>
               <div>
                 <h5 class="text-dark">Application Developer</h5>
