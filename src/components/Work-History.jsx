@@ -26,7 +26,6 @@ export default class WorkHistory extends Component {
                 <p class="lead text-muted pb-3">May 2023 - Now</p>
               </div>
             </div>
-          </div>
 
 
             <div class="d-flex mb-1 gap-3">
@@ -43,7 +42,7 @@ export default class WorkHistory extends Component {
             </div>
 
 
-          
+
             <div class="d-flex mb-1 gap-3">
               <div class="d-flex flex-column pr-4 align-items-center">
                 <div class="rounded-circle py-2 px-3 stepper-number text-white mb-1">3</div>
@@ -56,11 +55,11 @@ export default class WorkHistory extends Component {
               </div>
             </div>
 
-          
 
-       
+
+
+          </div>
         </div>
-
       </div>
     );
   }
