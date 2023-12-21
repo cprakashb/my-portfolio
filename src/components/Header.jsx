@@ -43,11 +43,11 @@ const Header = () => {
           <li class="nav-menu-items">
             <a href="#skills">Skills</a>
           </li>
-          <li>
+{/*           <li>
             <a href={downloadFile} target="_blank" rel="noreferrer">
               Resume
             </a>
-          </li>
+          </li> */}
         </ul>
 
         <div class="hamburger-menu d-block d-lg-none">
