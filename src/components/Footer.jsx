@@ -9,11 +9,6 @@ const Footer = () => {
                 <li>
                     <a href="https://ca.linkedin.com/in/chandraprakashb" target="_blank" rel="noreferrer">LinkedIn</a>
                 </li>
-                <li>
-                    <a href={downloadFile} target="_blank" rel="noreferrer">
-                        Resume
-                    </a>
-                </li>
             </ul>
         </div>
     </footer>)
