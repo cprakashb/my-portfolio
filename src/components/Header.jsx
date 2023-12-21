@@ -63,11 +63,11 @@ const Header = () => {
             <li class="nav-menu-items menu__item">
               <a href="#skills" onClick={()=>handleChange()}>Skills</a>
             </li>
-            <li class="nav-menu-items menu__item">
+{/*             <li class="nav-menu-items menu__item">
               <a href={downloadFile} target="_blank" rel="noreferrer" onClick={()=>handleChange()}>
                 Resume
               </a>
-            </li>
+            </li> */}
           </ul>
 
 
