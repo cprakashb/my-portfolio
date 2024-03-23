@@ -23,7 +23,7 @@ export default class WorkHistory extends Component {
 
                 <h5 class="text-dark">Software Engineer</h5>
                 <h5 class="text-dark">ResponsiveAds</h5>
-                <p class="lead text-muted pb-3">Jan 2023 - Dec 2023</p>
+                <p class="lead text-muted pb-3">May 2023 - Dec 2023</p>
               </div>
             </div>
 
